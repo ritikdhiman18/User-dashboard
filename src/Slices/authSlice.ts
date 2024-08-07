@@ -1,4 +1,3 @@
-// src/store/authSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AppDispatch } from '../Store/index';
 import { login as loginService, register as registerService } from '../services/axiosConfig';
